@@ -67,11 +67,11 @@ gem "refile-mini_magick"
 
 gem 'kaminari'
 
+gem 'dotenv-rails'
+
 gem 'therubyracer', platforms: :ruby
 
 group :production do
   # Gemfileの1番下に追加しましょう。
   #gem 'pg'
 end
-
-gem 'dotenv-rails'
